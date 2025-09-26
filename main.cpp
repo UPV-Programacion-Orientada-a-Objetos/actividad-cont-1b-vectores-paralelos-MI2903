@@ -68,9 +68,10 @@ if (getline(ss, dato, ',')) {
         } else continue;
         
         numProductos++;
-
-
-  
-
 }
+cout << "Inventario cargado exitosamente. " << numProductos << " productos encontrados." << endl;
+    return true;
 }
+//funion oara guaradar el inevtario actual en el atchivo inventario.txt
+//sobrescribe el archivo exitemente con los datos actuales 
+
